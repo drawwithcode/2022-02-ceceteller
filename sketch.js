@@ -16,7 +16,7 @@ let bubble4;
 let myFont;
 
 function preload() {
-  myFont = loadFont("assets/Arial Narrow.ttf");
+  myFont = loadFont("./assets/Arial Narrow.ttf");
 }
 
 function setup() {
