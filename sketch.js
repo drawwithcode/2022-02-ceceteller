@@ -13,6 +13,12 @@ let bubble2;
 let bubble3;
 let bubble4;
 
+let myFont;
+
+function preload() {
+  myFont = loadFont("assets/Arial Narrow.ttf");
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   bubble1 = new Bubble();
